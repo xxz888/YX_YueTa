@@ -157,9 +157,9 @@
 		7484F85421CB418B0000BB2F /* YTSquareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7484F85321CB418B0000BB2F /* YTSquareController.m */; };
 		7484F85721CB419B0000BB2F /* YTPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7484F85621CB419B0000BB2F /* YTPublishController.m */; };
 		7484F85A21CB41A90000BB2F /* YTMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7484F85921CB41A90000BB2F /* YTMessageController.m */; };
-		7484F86A21CB64A00000BB2F /* BuildFile in Sources */ = {isa = PBXBuildFile; };
-		7484F86B21CB64A00000BB2F /* BuildFile in Sources */ = {isa = PBXBuildFile; };
-		7484F86C21CB64A00000BB2F /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		7484F86A21CB64A00000BB2F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		7484F86B21CB64A00000BB2F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		7484F86C21CB64A00000BB2F /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7484F87121CB8C260000BB2F /* YDXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7484F87021CB8C260000BB2F /* YDXTabBar.m */; };
 		74D1641321E5A6EF00143E26 /* YTLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D1640821E5A6EF00143E26 /* YTLoginController.m */; };
 		74D1641421E5A6EF00143E26 /* YTSetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D1640921E5A6EF00143E26 /* YTSetPasswordController.m */; };
@@ -2945,7 +2945,7 @@
 				7418837B21F05A7100980A4B /* YCAddressPickerView.m in Sources */,
 				7418881E21F7195600980A4B /* EaseUserModel.m in Sources */,
 				7B7F1BEF220182DD0037B412 /* YTReportViewController.m in Sources */,
-				7484F86C21CB64A00000BB2F /* BuildFile in Sources */,
+				7484F86C21CB64A00000BB2F /* (null) in Sources */,
 				7418881B21F7195600980A4B /* EaseEmotionManager.m in Sources */,
 				7484F82D21CB32AF0000BB2F /* NSString+YCUtil.m in Sources */,
 				7BC6FC8121F577FC004BB71E /* YTVipPackageView.m in Sources */,
@@ -2996,12 +2996,12 @@
 				7418836621EDC2D000980A4B /* AllInfoModel.m in Sources */,
 				642D748D2202CD1200BBF955 /* SDRangeSliderView.m in Sources */,
 				7484F85121CB41780000BB2F /* YTNearController.m in Sources */,
-				7484F86B21CB64A00000BB2F /* BuildFile in Sources */,
+				7484F86B21CB64A00000BB2F /* (null) in Sources */,
 				7B33AF9621E727A80028BBE2 /* YTSettingItem.m in Sources */,
 				64FB15672200A5E60077D517 /* NearInterface.m in Sources */,
 				7418887E21F7195600980A4B /* EaseBubbleView+File.m in Sources */,
 				7B96E1D621EC7345002EE53D /* YTMyWalletViewController.m in Sources */,
-				7484F86B21CB64A00000BB2F /* BuildFile in Sources */,
+				7484F86B21CB64A00000BB2F /* (null) in Sources */,
 				7B4A098421DCAEEA00F9E1EE /* YTPostAppointmentAddressView.m in Sources */,
 				7BC6FC7721F54EF0004BB71E /* YTPayStyleCell.m in Sources */,
 				7BFD10B621F7110700107C52 /* YTMyProblemModel.m in Sources */,
@@ -3039,7 +3039,7 @@
 				7484F84621CB32BA0000BB2F /* BaseNavigationController.m in Sources */,
 				7B33AF9521E727A80028BBE2 /* YTBasicInformationViewController.m in Sources */,
 				7BCCDAB621DCC8BE0065880B /* YTSelectPictureHelper.m in Sources */,
-				7484F86A21CB64A00000BB2F /* BuildFile in Sources */,
+				7484F86A21CB64A00000BB2F /* (null) in Sources */,
 				7418886B21F7195600980A4B /* EaseRefreshTableViewController.m in Sources */,
 				7418885221F7195600980A4B /* PSTGridLayoutRow.m in Sources */,
 				7484F82C21CB32AF0000BB2F /* NSString+Category.m in Sources */,
@@ -3209,7 +3209,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 36JC4B9JZA;
+				DEVELOPMENT_TEAM = V458Z29RD7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3229,7 +3229,7 @@
 					"$(PROJECT_DIR)/YueTa/Vendor/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
 					"$(PROJECT_DIR)/YueTa/Vendor/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ydd.YueTa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuju.yueta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -3246,7 +3246,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 36JC4B9JZA;
+				DEVELOPMENT_TEAM = V458Z29RD7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3266,7 +3266,7 @@
 					"$(PROJECT_DIR)/YueTa/Vendor/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
 					"$(PROJECT_DIR)/YueTa/Vendor/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ydd.YueTa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuju.yueta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
