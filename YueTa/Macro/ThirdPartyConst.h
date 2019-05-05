@@ -9,7 +9,7 @@
 #ifndef ThirdPartyConst_h
 #define ThirdPartyConst_h
 
-#define kAmapApiKey @"aabffff5e6e36b85a6ca73bb8ba92bab"
+#define kAmapApiKey @"b9d9cc3c114383e5ac2bb33d93195ac3"
 
 
 #define HUANXINAPPKEY @"1116181124113713#yueta"  //应用标识

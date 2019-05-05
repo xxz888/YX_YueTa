@@ -320,7 +320,7 @@ static NSString *YTBasicInfoTitleCellID = @"YTBasicInfoTitleCellID";
                 [kAppWindow showAutoHideHudWithText:@"体重范围25-150kg"];
                 return;
             }
-            self.userModel.weight = [NSString stringWithFormat:@"%@kg",inputText];
+            self.userModel.weight = [NSString stringWithFormat:@"%@",inputText];
             item.rightTitle = inputText;
             [self.tableView reloadData];
         }];

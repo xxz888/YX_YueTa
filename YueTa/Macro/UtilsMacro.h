@@ -31,7 +31,9 @@
 //是否是iPhoneX
 #define SafeArea_Top UIApplication.sharedApplication.windows[0].safeAreaInsets.top
 #define SafeArea_Bottom UIApplication.sharedApplication.windows[0].safeAreaInsets.bottom
-#define kDevice_Is_iPhoneX  (@available(iOS 11.0, *) ? (SafeArea_Top == 44 && SafeArea_Bottom == 34) : NO)
+//#define kDevice_Is_iPhoneX  (@available(iOS 11.0, *) ? (SafeArea_Top == 44 && SafeArea_Bottom == 34) : NO)
+#define kDevice_Is_iPhoneX ([[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0 ? YES : NO)
+
 //StatusBar高度
 #define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
 //在其他型号的iPhone上StatusBar是20 在iPhone X上StatusBar的高度是44，

@@ -195,6 +195,9 @@
     [bodyDic setObject:@(age) forKey:@"age"];
     [bodyDic setObject:@(job) forKey:@"job"];
     [bodyDic setObject:height forKey:@"height"];
+    if ([weight containsString:@"kg"]) {
+        [weight stringByReplacingOccurrencesOfString:@"kg" withString:@""];
+    }
     [bodyDic setObject:weight forKey:@"weight"];
     [bodyDic setObject:@(emotion) forKey:@"emotion"];
     if (program) {

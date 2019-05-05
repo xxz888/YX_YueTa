@@ -38,7 +38,7 @@
 
 - (void)requestData {
     [self.view showIndeterminateHudWithText:nil];
-    [NearInterface getNearListWithPage:1 andBlock:^(ResponseMessage *rspStatusAndMessage, NSArray *array) {
+    [NearInterface getNearListWithPage:self.pageIndex andBlock:^(ResponseMessage *rspStatusAndMessage, NSArray *array) {
         [self.view hideHud];
         if (rspStatusAndMessage.code == kResponseSuccessCode) {
             if (self.pageIndex == 1) {
