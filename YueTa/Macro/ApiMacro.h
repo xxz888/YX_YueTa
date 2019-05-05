@@ -10,7 +10,8 @@
 #ifndef ApiMacro_h
 #define ApiMacro_h
 
-#define kBaseURLString @"http://47.99.176.45:8081"//测试域名
+//#define kBaseURLString @"http://thegdlife.com:8002"//测试域名
+#define kBaseURLString @"http://192.168.0.12:8001"//测试域名
 
 
 #pragma mark - **************** 接口返回Code相关 ****************

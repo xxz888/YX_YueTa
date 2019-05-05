@@ -183,8 +183,8 @@
     
     [MineInterface postYuaTaByObject_id:self.dateUserId area:self.area use_coin:1 date_time:self.date_time duration:self.duration reward_type:self.reward_type reward:self.reward program:self.program site:self.site show1:show1 show2:show2 show3:show3 show4:show4 site_abscissa:0 site_ordinate:0 andBlock:^(ResponseMessage * _Nonnull rspStatusAndMessage, NSDictionary * _Nonnull responseDic) {
         [kAppWindow hideHud];
-        if ([rspStatusAndMessage.message containsString:@"邀约成功"]) {
-            [kAppWindow showAutoHideHudWithText:rspStatusAndMessage.message];
+        if ([responseDic[@"status"] integerValue] == 1) {
+            [kAppWindow showAutoHideHudWithText:responseDic[@"message"]];
             [self.navigationController popToRootViewControllerAnimated:YES];
         }
     }];

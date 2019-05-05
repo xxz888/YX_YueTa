@@ -122,7 +122,7 @@
     [wechatBtn setImage:KimageName(@"ic_wx") forState:UIControlStateNormal];
     [wechatBtn setImageEdgeInsets:UIEdgeInsetsMake(0, 0, kRealValue(30), 0)];
     [wechatBtn setTitleEdgeInsets:UIEdgeInsetsMake(kRealValue(50), -kRealValue(90), 0, 0)];
-    [self.view addSubview:wechatBtn];
+   // [self.view addSubview:wechatBtn];
      
     // QQ登录
     UIButton *QQBtn = [UIButton buttonWithTitle:@"QQ登录" taget:self action:@selector(QQLogin) font:kSystemFont13 titleColor:kWhiteTextColor];
@@ -131,7 +131,7 @@
     [QQBtn setImage:KimageName(@"ic_qq") forState:UIControlStateNormal];
     [QQBtn setImageEdgeInsets:UIEdgeInsetsMake(0, 0, kRealValue(30), 0)];
     [QQBtn setTitleEdgeInsets:UIEdgeInsetsMake(kRealValue(50), -kRealValue(90), 0, 0)];
-    [self.view addSubview:QQBtn];
+   // [self.view addSubview:QQBtn];
     
 }
 

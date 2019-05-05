@@ -44,6 +44,8 @@ static AFHTTPSessionManager *_sessionManager;
             //打印返回数据
             [self printResponseObject:responseObject error:nil];
             //回调 message  data
+            NSLog(@"===================== 返回的：%@   =====================",responseObject);
+
             block ? block([self handleResponseMessage:responseObject], [self handelResponseData:responseObject]) : nil;
 
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
